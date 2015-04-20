@@ -1,1 +1,60 @@
-/home/awhite/.atom/config.cson
+"*":
+  "exception-reporting":
+    userId: ""
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "autocomplete-jedi"
+      "linter-python-pep8"
+      "atom-alignment"
+      "language-mustache"
+      "autocomplete"
+    ]
+    audioBeep: false
+  editor:
+    fontSize: 14
+    showIndentGuide: true
+    tabLength: 2
+    preferredLineLength: 120
+    invisibles: {}
+  linter: {}
+  "linter-pep8":
+    ignoreErrorCodes: [
+      "E501",
+      "W292"
+    ]
+  "linter-jshint": {}
+  "linter-js-yaml": {}
+  "linter-htmlhint": {}
+  "atom-alignment": {}
+  "aligner-css": {}
+  "atom-beautify":
+    _analyticsUserId: ""
+    analytics: false
+    html_end_with_newline: true
+    html_indent_size: 4
+    python_indent_size: 4
+    python_max_line_length: 120
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E501",
+      "W292"
+    ]
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  jsformat:
+    space_after_anon_function: true
+    space_in_paren: true
+".html.jinja.text":
+  editor:
+    showIndentGuide: true
+".js.regexp.source":
+  editor:
+    preferredLineLength: 90
+".po.source":
+  editor:
+    preferredLineLength: 90
+".js.source":
+  editor:
+    preferredLineLength: 90

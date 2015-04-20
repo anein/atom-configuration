@@ -1,1 +1,20 @@
-/home/awhite/.atom/keymap.cson
+'atom-text-editor:not([mini])':
+  'ctrl-e': 'editor:delete-line'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-d': 'editor:duplicate-lines'
+
+'atom-pane atom-text-editor:not([mini])':
+  'ctrl-alt-/': 'emmet:toggle-comment'
+
+'atom-text-editor':
+  'ctrl-space': 'autocomplete-plus:activate'
+
+'.platform-linux, .platform-linux .command-palette atom-text-editor':
+  'shift-alt-o': 'command-palette:toggle'
+
+'atom-text-editor':
+  'ctrl-alt-d': 'jsdoc:block'
+
+'atom-text-editor':
+  'ctrl-space': 'autocomplete-plus:activate'
